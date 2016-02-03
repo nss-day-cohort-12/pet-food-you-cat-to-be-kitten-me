@@ -1,6 +1,3 @@
-console.log("First line in JavaScript file");
-console.log(Date.now());
-
 function executeThisCodeIfXHRFails (xhrEvent) {
 	console.log("An error occurred");
 }
@@ -9,8 +6,6 @@ function executeThisCodeWhenChunksArrive (xhrEvent) {
 }
 
 function executeThisCodeAfterFileIsLoaded () {
-	console.log("executeThisCodeAfterFileIsLoaded");
-	console.log(Date.now());
 
 	// Parse the response text as JSON
 	console.log("this.responseText", this.responseText);
@@ -25,14 +20,23 @@ function executeThisCodeAfterFileIsLoaded () {
 	var currentFood;
 
 	for (var i = 0; i < data.dog_brands.length; i++) {
-		currentSong = data.dog_brands[i];
-		petFoodData = `<h1>${"output"}</h1>`;
-	}
+		currBrand = data.dog_brands[i];
+		// data.dog_brands is array of objects {name:N, types:T}
+    // T is array of objects {type:Ty, volumes:V}
+    // V is array of objects {name: Na, price: P}
+		petFoodData += `<p>Brand Name: ${currBrand.name}</p>` 
+    for (var j = 0; j < currBrand.types.length; j++) {
+      petFoodData += `<p>Type: ${currBrand.types[j].type}</p>`
+      for (var k = 0; k < currBrand.types[j].volumes.length; k++) {
+        petFoodData += `<p>Volume: ${currBrand.types[j].volumes[k].name}</p>`
+        petFoodData += `<p>Price: ${currBrand.types[j].volumes[k].price}</p>`
+      } // end for k
+    } // end for j
+	} // end for i
+	
 	console.log(petFoodData);
 	outputEl.innerHTML = petFoodData;
 }
-
-
 
 var myRequest = new XMLHttpRequest();
 
@@ -41,6 +45,3 @@ myRequest.addEventListener("error", executeThisCodeIfXHRFails);
 myRequest.addEventListener("progress", executeThisCodeWhenChunksArrive);
 myRequest.open("GET", "petfood.json"); //Get, post, put, delete are the four verbs used//
 myRequest.send();
-
-console.log("Last line in JavaScript file");
-console.log(Date.now());
