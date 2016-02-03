@@ -1,0 +1,45 @@
+{
+	"dog_brands": [{
+		"name": "Chuck wagon",
+		"types": [{
+			"type": "all_natural",
+			"volumes": [{
+				"name": "32oz",
+				"price": 9.99
+			}, {
+				"name": "64oz",
+				"price": 17.99
+			}]
+		}, {
+			"type": "standard",
+			"volumes": [{
+				"name": "58oz",
+				"price": 12.99
+			}, {
+				"name": "72oz",
+				"price": 21.99
+			}]
+		}]
+	}, {
+		"name": "Purina",
+		"types": [{
+			"type": "puppy",
+			"volumes": [{
+				"name": "16oz",
+				"price": 8.99
+			}, {
+				"name": "24oz",
+				"price": 14.99
+			}]
+		}, {
+			"type": "standard",
+			"volumes": [{
+				"name": "58oz",
+				"price": 19.99
+			}, {
+				"name": "72oz",
+				"price": 24.99
+			}]
+		}]
+	}]
+}
