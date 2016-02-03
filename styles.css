@@ -1,3 +1,56 @@
-.col-md-1, .col-md-12, .col-md-8, .col-md-4, .col-md-3, .col-md-6 {
-  border: solid 2px black;
+body {
+ background-color: grey;
+ margin-top: 50px;
+}
+
+.outerContainer {
+ display: block;
+ max-width: 600px;
+ margin: 10px 0 10px 2%;
+ background-color: black;
+ padding: 0;
+ border: solid 2px black;
+ border-radius: 10px;
+ box-shadow: -10px -8px 20px black;
+}
+
+.brandName {
+ text-align: center;
+ margin: 3px 0;
+ padding: 3px 0;
+ background-color: yellow;
+ border-bottom: solid 2px black;
+ border-radius: 10px;
+ line-height: 5px;
+}
+
+.productName {
+ text-align: center;
+ background-color: red;
+ border-bottom: solid 2px black;
+ border-radius: 10px;
+}
+
+.inOut {
+ background-color: pink;
+ padding: 0;
+ border: solid 2px black;
+ border-radius: 10px;
+}
+
+p {
+ margin-left: 5%;
+}
+
+h1 {
+ font-size: 60px;
+ padding: 0 0 38px 60px;
+ text-shadow: -1.7px -1px lightgrey;
+}
+
+h2 {
+ font-weight: 900;
+ margin: 0;
+ padding: 10px 0;
+ text-shadow: -1.7px -1px lightgrey;
 }
