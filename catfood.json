@@ -1,0 +1,142 @@
+{
+	"cat_brands": [{
+		"name": "Purrina",
+		"types": [{
+			"type": "Siamese",
+			"volumes": [{
+				"name": "Kitten: 20oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 32oz",
+				"price": 26.99
+			}, {
+				"name": "Kitten: 64oz",
+				"price": 34.99
+			}, {
+				"name": "Elite: 20oz",
+				"price": 24.99
+			}, {
+				"name": "Elite: 40oz",
+				"price": 47.99
+			}]
+		}, {
+			"type": "Bengal",
+			"volumes": [{
+				"name": "Kitten: 20oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 32oz",
+				"price": 26.99
+			}, {
+				"name": "Kitten: 64oz",
+				"price": 34.99
+			}, {
+				"name": "Elite: 20oz",
+				"price": 24.99
+			}, {
+				"name": "Elite: 40oz",
+				"price": 47.99
+			}]
+		},  {
+			"type": "Snowshow",
+			"volumes": [{
+				"name": "Kitten: 20oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 32oz",
+				"price": 26.99
+			}, {
+				"name": "Kitten: 64oz",
+				"price": 34.99
+			}, {
+				"name": "Elite: 20oz",
+				"price": 24.99
+			}, {
+				"name": "Elite: 40oz",
+				"price": 47.99
+			}]
+		},	{
+			"type": "Munchkin Kitten",
+			"volumes": [{
+				"name": "Kitten: 20oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 32oz",
+				"price": 26.99
+			}, {
+				"name": "Kitten: 64oz",
+				"price": 34.99
+			}, {
+				"name": "Elite: 20oz",
+				"price": 24.99
+			}, {
+				"name": "Elite: 40oz",
+				"price": 47.99
+			}]
+		}]
+		},  {
+		"name": "Meow Meal",
+		"types": [{
+			"type": "Manx",
+			"volumes": [{
+				"name": "Kitten: 24oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 48oz",
+				"price": 34.99
+			}, {
+				"name": "Adult: 28oz",
+				"price": 22.99
+			}, {
+				"name": "Adult: 56oz",
+				"price": 40.99
+			}]
+		}, {
+			"type": "Egyptian Mau",
+			"volumes": [{
+				"name": "Kitten: 24oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 48oz",
+				"price": 34.99
+			}, {
+				"name": "Kitten: 28oz",
+				"price": 22.99
+			}, {
+				"name": "Elite: 56oz",
+				"price": 40.99
+			}]
+		},	{
+			"type": "Himalayan",
+			"volumes": [{
+				"name": "Kitten: 24oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 48oz",
+				"price": 34.99
+			}, {
+				"name": "Kitten: 28oz",
+				"price": 22.99
+			}, {
+				"name": "Elite: 56oz",
+				"price": 40.99
+			}]
+		}, 	{
+			"type": "Rag Doll Kitten",
+			"volumes": [{
+				"name": "Kitten: 24oz",
+				"price": 19.99
+			}, {
+				"name": "Kitten: 48oz",
+				"price": 34.99
+			}, {
+				"name": "Kitten: 28oz",
+				"price": 22.99
+			}, {
+				"name": "Elite: 56oz",
+				"price": 40.99
+			}]
+		}]
+	}]
+}
+
