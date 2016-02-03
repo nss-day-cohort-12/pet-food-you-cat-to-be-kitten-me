@@ -20,10 +20,10 @@ function executeThisCodeAfterFileIsLoaded () {
 	for (var i = 0; i < data.dog_brands.length; i++) {  // i is index of array dog_brands
 		currBrand = data.dog_brands[i];
 		petFoodData += "<div class='col-md-6 outerContainer'>";  // each brand has one outerContainer
-		petFoodData += `<div class='col-md-12 brandName'><h>${currBrand.name}</h2></div>`; // each brand has one brandName
+		petFoodData += `<div class='col-md-12 brandName'><h2>${currBrand.name}</h2></div>`; // each brand has one brandName
     for (var j = 0; j < currBrand.types.length; j++) {  // loop through all products (types) within this brand
 		  petFoodData += "<div class='col-md-6 inOut'>";  // each product has one inOut
-      petFoodData += `<div class='col-md-12 productName'><p>${currBrand.types[j].type}</p></div>`; // each product has one productName
+      petFoodData += `<div class='col-md-12 productName'><h4>${currBrand.types[j].type}</h4></div>`; // each product has one productName
       petFoodData += "<div class='foodInfo'>";  // each product has one foodInfo
       for (var k = 0; k < currBrand.types[j].volumes.length; k++) {  // loop through all volumes within this product
         petFoodData += `<p>Volume: ${currBrand.types[j].volumes[k].name}</p>`;  // each volume has one name
