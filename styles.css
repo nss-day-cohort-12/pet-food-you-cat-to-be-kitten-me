@@ -1,3 +1,43 @@
-.col-md-1, .col-md-12, .col-md-8, .col-md-4, .col-md-3, .col-md-6 {
+/*.col-md-1, .col-md-12, .col-md-8, .col-md-4, .col-md-3, .col-md-6 {
   border: solid 2px black;
+  border-radius: 10px;
+}*/
+
+.outerContainer {
+  display: block;
+  max-width: 600px;
+  margin: 10px 0 10px 2%;
+  background-color: black;
+  padding: 0;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.brandName {
+  text-align: center;
+  margin: 3px 0;
+  padding: 3px 0;
+  background-color: lightgreen;
+  border-bottom: solid 2px black;
+  border-radius: 10px;
+  line-height: 5px;
+}
+
+
+.productName {
+  text-align: center;
+  background-color: red;
+  border-bottom: solid 2px black;
+  border-radius: 10px;
+}
+
+.inOut {
+  background-color: pink;
+  padding: 0;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+p {
+  margin-left: 5%;
 }
